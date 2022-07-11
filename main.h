@@ -2,8 +2,10 @@
 #define MAIN_H
 
 #include <stdarg.h>
-#include <stddef.h>
+#include <unistd.h>
 #include <stdlib.h>
+#include <limits.h>
+#include <stdio.h>
 
 /**
  * struct convert - struct for print function
