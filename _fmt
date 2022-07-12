@@ -40,7 +40,7 @@ int print_char(va_list valist)
  *
  * Return: 1
  */
-int print_percent(__attribute__((unused)) va_list valist)
+int print_binary(__attribute__((unused)) va_list valist)
 {
 	_putchar("b");
 	return (1);
