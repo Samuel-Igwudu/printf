@@ -11,6 +11,8 @@ int _printf(const char *format, ...)
 	pt_fmt pt_format[] = {
 		{"c", print_char},
 		{"s", print_string},
+		{"d", print_digit},
+		{"i", print_digit},
 		{"%", print_percent},
 		{NULL, NULL}
 	};

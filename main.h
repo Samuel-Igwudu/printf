@@ -27,7 +27,7 @@ int print_char(va_list);
 int print_string(va_list);
 int print_percent(va_list);
 int get_print(const char *, va_list, pt_fmt pt_format[]);
-
+int print_digit(va_list);
 
 #endif
 
