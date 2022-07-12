@@ -14,6 +14,11 @@ int _printf(const char *format, ...)
 		{"d", print_digit},
 		{"i", print_digit},
 		{"%", print_percent},
+		{"b", func_binary_convert},
+		{"u", func_unsig_int},
+		{"o", func_octal_convert},
+		{"x", func_hex_Lowcase_convert},
+		{"X", func_hex_Upcase_convert},
 		{NULL, NULL}
 	};
 
